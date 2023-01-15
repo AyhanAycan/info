@@ -6,27 +6,30 @@ body {
 }
 .box {
     width: 450px;
-    background: #6b5858;
+    background: #05354b;
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
     color: #fff;
     font-family: sans-serif;
+    border-radius: 25px;
+    opacity: 0.8;
 }
 .box img {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    border-radius: 30%;
+    width: 250px;
+    height: 250px;
     cursor: pointer;
     transition: 0.5s;
+    background-color:white ;
 }
 .box img:hover {
     transform: scale(0.9);
+    background-color: gray;
 }
 .box h1 {
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 4px;
     font-weight: 100;
 }
@@ -50,11 +53,11 @@ li {
 }
 a {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     transition: all ease-in-out 250ms;
 }
 a:hover {
-    color: #b9b9b9;
+       color: gray
 }
 input {
     background-color: #6b5858;
